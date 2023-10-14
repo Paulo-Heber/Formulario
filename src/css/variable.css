@@ -1,0 +1,17 @@
+:root {
+    --fonteDoTexto: 'roboto';
+}
+
+:root {
+    --fonteGrande: 900;
+    --fonteMedia: 700;
+    --fontePequena: 400;
+}
+
+:root {
+    --fonte: rgba(255, 255, 255, 1);
+    --placeholder: rgba(168, 168, 168, 1);
+    --borda: rgba(245, 46, 46, 1);
+    --botao: rgba(60, 204, 135, 1);
+
+}

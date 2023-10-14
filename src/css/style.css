@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.conteiner {
+    background-image: url(../images/bg-repeat.jpg);
+    font-family: var(--fonteDoTexto);
+    background-repeat: repeat-x;
+    background-size: contain;
+    justify-content: center;
+    padding: 1.2rem 5rem;
+    align-items: center;
+    color: var(--fonte);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.texto {
+    max-width: 34rem;
+    margin-right: 6rem;
+}
+
+.texto h1 {
+    font-weight: var(--fonteGrande);
+    text-transform: uppercase;
+    margin-bottom: 1.1rem;
+    font-size: 20px;
+}
+
+.texto p {
+    font-weight: var(--fontePequena);
+    font-size: 15px;
+    max-width: 30rem;
+
+}
+
+.formulario {
+    background-color: var(--fonte);
+    font-weight: var(--fonteMedia);
+    display: flex;
+    flex-direction: column;
+    height: 37.8rem;
+    width: 34rem;
+    padding: 2rem;
+}
+
+.formulario :nth-child(n) {
+    border-radius: 5px;
+}
+
+
+.formulario ::placeholder {
+    color: var(--placeholder);
+    position: relative;
+}
+
+.formulario .mensagem::placeholder {
+    position: absolute;
+    top: 8px;
+}
+
+.formulario .campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .campo input {
+    border: solid 1px;
+    text-align: start;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: var(--fonteGrande);
+    padding-left: 1rem;
+}
+
+.formulario .campo .mensagem {
+    height: 10rem;
+}
+
+.formulario label {
+    margin-bottom: 0.6rem;
+    font-size: 8px;
+}
+
+.formulario :nth-child(4) label {
+    margin-bottom: 0;
+}
+
+.formulario p {
+    margin-bottom: 2rem;
+    color: black;
+    font-size: 15px;
+}
+
+.formulario .botao {
+    background-color: var(--botao);
+    height: 4rem;
+    display: flex;
+    color: var(--fonte);
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: var(--fonteGrande);
+}
+
+.inputvazio :nth-child(n){
+    border-color: var(--borda);
+    color: var(--borda);
+}
+
+.inputOcupado :nth-child(1){
+    border-color: var(--botao);
+    color: var(--botao);
+}
