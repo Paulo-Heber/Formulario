@@ -22,6 +22,7 @@
 .texto h1 {
     font-weight: var(--fonteGrande);
     text-transform: uppercase;
+    line-height: 2.344rem;
     margin-bottom: 1.1rem;
     font-size: 20px;
 }
@@ -51,6 +52,7 @@
 .formulario ::placeholder {
     color: var(--placeholder);
     position: relative;
+    font-weight: var(--fonteMedia);
 }
 
 .formulario .mensagem::placeholder {
@@ -61,39 +63,42 @@
 .formulario .campo {
     display: flex;
     flex-direction: column;
+    min-height: 5rem;
 }
-
-.formulario .campo input {
+.formulario :nth-child(4){
+    min-height: 11.5rem;
+}
+input {
     border: solid 1px;
     text-align: start;
     height: 3.5rem;
     font-size: 1.5rem;
-    font-weight: var(--fonteGrande);
+    font-weight: var(--fontePequena);
     padding-left: 1rem;
 }
 
 .formulario .campo .mensagem {
-    height: 10rem;
+    min-height: 10rem;
 }
 
 .formulario label {
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.7rem;
     font-size: 8px;
+    color: var(--borda);
+    display: none;
 }
 
-.formulario :nth-child(4) label {
-    margin-bottom: 0;
-}
 
 .formulario p {
-    margin-bottom: 2rem;
+    margin-bottom: 1.1rem;
     color: black;
-    font-size: 15px;
+    font-size: 1.5rem;
+    font-weight: var(--fontePequena);
 }
 
 .formulario .botao {
     background-color: var(--botao);
-    height: 4rem;
+    min-height: 4rem;
     display: flex;
     color: var(--fonte);
     justify-content: center;
@@ -102,12 +107,11 @@
     font-weight: var(--fonteGrande);
 }
 
-.inputvazio :nth-child(n){
+.inputVazio :nth-child(n) {
     border-color: var(--borda);
-    color: var(--borda);
+    display: block;
 }
 
-.inputOcupado :nth-child(1){
+.inputOcupado :nth-child(1) {
     border-color: var(--botao);
-    color: var(--botao);
 }
