@@ -65,12 +65,13 @@
     flex-direction: column;
     min-height: 5rem;
 }
-.formulario :nth-child(4){
+
+.formulario :nth-child(4) {
     min-height: 11.5rem;
 }
+
 input {
     border: solid 1px;
-    text-align: start;
     height: 3.5rem;
     font-size: 1.5rem;
     font-weight: var(--fontePequena);
@@ -80,6 +81,7 @@ input {
 .formulario .campo .mensagem {
     min-height: 10rem;
 }
+
 
 .formulario label {
     margin-bottom: 0.7rem;
