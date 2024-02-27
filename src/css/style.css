@@ -38,7 +38,7 @@
     background-color: var(--fonte);
     font-weight: var(--fonteMedia);
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 9px;
     height: 37.8rem;
     display: flex;
     width: 34rem;
