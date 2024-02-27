@@ -37,9 +37,10 @@
 .formulario {
     background-color: var(--fonte);
     font-weight: var(--fonteMedia);
-    display: flex;
     flex-direction: column;
+    border-radius: 10px;
     height: 37.8rem;
+    display: flex;
     width: 34rem;
     padding: 2rem;
 }
