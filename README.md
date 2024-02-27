@@ -1,6 +1,6 @@
 # Pokedex Poke-API
 
-<img src="./src/gifs/Poke-API.gif" alt="Descrição" style="border-radius: 15px;" />
+<img src="./src/gifs/Formulario.gif" alt="Descrição" style="border-radius: 15px;" />
 
 ## Propósito
 
